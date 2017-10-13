@@ -3,7 +3,8 @@ using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.Extensions.HealthChecks.Background.Internal;
 
-namespace Microsoft.Extensions.HealthChecks.Background
+// ReSharper disable once CheckNamespace
+namespace Microsoft.Extensions.HealthChecks
 {
     public static class HealthCheckBuilderBackgroundExtensions
     {
